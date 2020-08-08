@@ -48,7 +48,7 @@ int main() {
 				cnt++;
 			}
 		}
-		printf("%d", cnt);
+		printf("%d\n", cnt);
 		cnt = 0;
 
 	}
