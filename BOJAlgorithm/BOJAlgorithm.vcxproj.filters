@@ -87,7 +87,13 @@
     <ClCompile Include="7569토마토.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="13460구슬탈출.cpp">
+    <ClCompile Include="14503로봇청소기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3190뱀.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11727_2N타일링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
