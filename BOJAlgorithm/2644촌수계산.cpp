@@ -8,7 +8,7 @@ vector<int> family[103];
 queue<int> q;
 bool chk[103];
 bool visit = false;
-int weight[103];
+int weight[103]; //p1 으로 부터 거리 (촌수)
 int n, p1, p2, m, x, y, CNT = 0;
 void BFS() {
 	chk[p1] = true;

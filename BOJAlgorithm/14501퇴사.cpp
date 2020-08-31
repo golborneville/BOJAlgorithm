@@ -4,7 +4,7 @@
 using namespace std;
 
 int N, p[17], t[17], most_pay = 0;
-
+//구글링 ㅇㅇ 참고한 코드 
 int main() {
 	scanf_s("%d", &N);
 	for (int i = 1; i <= N; i++) {
