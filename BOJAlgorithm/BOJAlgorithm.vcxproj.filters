@@ -114,5 +114,8 @@
     <ClCompile Include="14888연산자끼워넣기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14889스타트와링크.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
