@@ -96,9 +96,6 @@
     <ClCompile Include="11727_2N타일링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="13460구슬탈출.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2644촌수계산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -171,12 +168,6 @@
     <ClCompile Include="14470전자레인지.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="p1.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="17298오큰수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -184,6 +175,21 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="2751수정렬2cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13866팀나누기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2740행렬곱셈.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13136donttouchanything.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2530인공지능시계.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2355시그마.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
