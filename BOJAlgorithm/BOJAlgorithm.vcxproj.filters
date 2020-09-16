@@ -192,5 +192,11 @@
     <ClCompile Include="2355시그마.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1712손익분기점.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14652나느행복합니다.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
