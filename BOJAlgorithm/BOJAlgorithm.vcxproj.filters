@@ -165,5 +165,26 @@
     <ClCompile Include="1032명령프롬포트.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1120문자열.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14470전자레인지.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="p1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17298오큰수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1918후위표기법.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2751수정렬2cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
