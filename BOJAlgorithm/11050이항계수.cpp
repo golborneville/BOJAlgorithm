@@ -9,8 +9,8 @@ int main() {
 	for (int i = 2; i <= n; i++) {
 		fib[i] = fib[i - 1] * i;
 	}
-	
-	int  re = (fib[n] / fib[k]) / fib[n-k];
+
+	int  re = (fib[n] / fib[k]) / fib[n - k];
 	std::cout << re;
 	return 0;
 }

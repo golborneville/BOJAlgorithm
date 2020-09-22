@@ -219,5 +219,8 @@
     <ClCompile Include="11050이항계수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11051이항계수2cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
