@@ -9,7 +9,7 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 	stack<char> survive;
-	stack<char> prebomb; // ㅠㅗㄱ발인지 확인용 스택
+	stack<char> prebomb; // 폭발인지 확인용 스택
 	string sent, bomb;
 	string total = "";
 	cin >> sent >> bomb;
@@ -17,12 +17,12 @@ int main() {
 	int into = 0;
 	int bomb_ind = bomb.size() - 2; // start as second to last index 
 	if (bomb.size() < 2) {
-		//bobm size 1
+		//bomb size 1
 		bomb_ind = 0;
 	}
 	for (int i = 0; i < sent.size(); i++) {
 		if (sent[i] != bomb[bomb.size() - 1]) {
-			//폭발 문자의 마지막 char과 일치하지 않을 경우 스택에 해당 인덱스 push
+			//폭발 문자의 마지막 char과 일치하지 않을 경우 스택에 해당 value push
 			survive.push(sent[i]);
 		}
 		else {
