@@ -21,7 +21,7 @@ void recur(int m, int depth) { // 베이스는DFS임
 		recur(i+1, depth + 1); // 핵심2
 		chk[i] = false;
 
-	}
+	} 
 
 
 

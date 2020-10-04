@@ -249,5 +249,8 @@
     <ClCompile Include="15652N과M(4).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="7576토마토.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
