@@ -255,5 +255,11 @@
     <ClCompile Include="16918봄버맨.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10816숫자카드2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="19236청소년상어.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
