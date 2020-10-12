@@ -70,14 +70,6 @@ int main() {
 						if (countb[i][j] == 2 && box[i][j] == bomb) {
 							//해당 단계에서 ++ 되어서 3초가됨 -> 폭발
 							//폭발 시키기-> 이 단게에서 box[i][j]값 달라질수잇음 
-							/*countb[i][j] = 0;
-							box[i][j] = blank;
-							for (int k = 0; k < 4; k++) {
-								if (box[i + dx[k]][j + dy[k]] != 'n') {
-									box[i + dx[k]][j + dy[k]] = blank;
-									countb[i + dx[k]][j + dy[k]] = 0;
-								}
-							}*/
 							q.push({i,j});
 
 						}
