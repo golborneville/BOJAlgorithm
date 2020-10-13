@@ -4,6 +4,7 @@
 #include<functional>
 #include<vector>
 #include<algorithm>
+#include<cstring>
 using namespace std;
 
 int toot = 0;
@@ -97,7 +98,7 @@ void shark_eat(tuple<int, int, int> shark, int fish) { //해당 턴에서 상어 위지 �
 			//recover
 			memcpy(sea, seacopy, sizeof(sea));
 			memcpy(xy, xycpy, sizeof(xy));
-			//sea[nsx][nsy] = { sea[nsx][nsy].first, get<2>(shark_tmp) }; //recover
+			
 		}
 		nsx = nsx + dx[sdir];
 		nsy = nsy + dy[sdir];
@@ -115,21 +116,15 @@ int main() {
 	}
 	//fish eaten by shark is defined {fishnumber,-1}
 	tuple<int, int, int> shark = { 0, 0, sea[0][0].second }; //initialize
-	//toot += sea[0][0].first;
+
 	xy[sea[0][0].first] = { -1,-1 };
 	sea[0][0] = { sea[0][0].first,-1 };
 
-	//while (true) { // if shark cant move anymore, break out of while {}
-		
 		//1. fish moving time
 		move_fish(shark);
 
 		//2. shark eating time
-		//shark = { 2, 2, sea[2][2].second }; //initialize
-		//toot += sea[2][2].first;
-		//xy[sea[2][2].first] = { -1,-1 };
-		//sea[2][2] = { sea[2][2].first,-1 };
 		shark_eat(shark, sea[0][0].first);
 		cout << toot;
-	//}
+	
 }
