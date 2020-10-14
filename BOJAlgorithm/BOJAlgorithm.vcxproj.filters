@@ -273,5 +273,8 @@
     <ClCompile Include="14500테트로미노.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1949등산로조성.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
