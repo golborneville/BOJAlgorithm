@@ -282,5 +282,17 @@
     <ClCompile Include="1912연속합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15685드래곤커브.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17142연구소3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="13460구슬탈출2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9205맥주.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
