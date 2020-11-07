@@ -37,7 +37,7 @@ int BFS() {
 			if (coin[next2.first][next2.second] == '#') {
 				next2 = coin2;
 			}
-			if (chk[next1.first][next1.second][next2.first][next2.second] > 0) continue;
+			if (chk[next1.first][next1.second][next2.first][next2.second] >= 0) continue;
 			
 			chk[next1.first][next1.second][next2.first][next2.second] = chk[coin1.first][coin1.second][coin2.first][coin2.second] + 1;
 			q.push({ next1, next2 });
@@ -66,6 +66,6 @@ int main() {
 	q.push({ {coinpos[0].first,coinpos[0].second},{ coinpos[1].first,coinpos[1].second } });
 	chk[coinpos[0].first][coinpos[0].second][coinpos[1].first][coinpos[1].second] = 0;
 	int ans = BFS();
-	cout << ans;
+	cout << ans << "\n";
 	return 0;
 }
