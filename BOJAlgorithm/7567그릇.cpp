@@ -6,7 +6,6 @@ string dish;
 
 int main() {
 	cin >> dish;
-	int suc = 1;
 	int total = 10;
 	for (int i = 1; i < dish.size(); i++) {
 		if (dish[i - 1] == dish[i]) {
