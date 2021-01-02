@@ -14,6 +14,7 @@ int main() {
 	}
 
 	k -= 3;
+
 	
 	for (int i = 0; i <= k; i++) { // second number
 		for (int j = 0; j <= k; j++) { //first number
