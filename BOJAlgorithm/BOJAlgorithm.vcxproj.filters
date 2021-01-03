@@ -315,5 +315,8 @@
     <ClCompile Include="16235나무재테크.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16939루빅스큐브.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
