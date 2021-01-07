@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream> //2x2x2
 using namespace std;
 
 int color[25]; //1~24 »ç¿ë
