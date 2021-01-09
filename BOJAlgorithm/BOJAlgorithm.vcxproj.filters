@@ -324,5 +324,8 @@
     <ClCompile Include="5373루빅스큐브.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17070파이프옮기기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
