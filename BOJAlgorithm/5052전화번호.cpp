@@ -1,24 +1,26 @@
 #include<iostream>
 #include<cstring>
+#include <algorithm>
 using namespace std;
-
-
+#define MAX_N 10000
+int t, n, r;
+char a[MAX_N][11];
 struct Trie {
 	Trie* next[10]; //0~9 
-	bool end; //해당 trie에서 (노드)
+	bool end; //해당 trie에서 (노드) 단어가 끝남을 의미
 	//생성자
 	Trie(): end(false) {
-		memset(next, 0, sizeof(next));
+		memset(next, 0, sizeof(next)); //root 노드 (아무 것도 존재X)
 	}
-	void insert(const char* key) {
-		if (key == '\0') { //단어의 마지막까지 끝난 경우
+	void insert(const char* key) { //911
+		if (*key == '\0') { //단어의 마지막까지 끝난 경우
 			end = true;
 		}
 		else {
-		int cur = *key - '0';
-		if (next[cur] == NULL)
-			next[cur] = new Trie(); //현재 trie에서 해당 숫자(혹은 문자) 가 등장한 적 없다는 의미 -> 새로 동적할당 해주자
-		next[cur]->insert(key + 1); //그 다음 문자열에 대해 확ㅇ니해주자 ( 포인터라서 주소 상 다음 문자를 가르킴)
+			int cur = *key - '0'; //[9]
+			if (next[cur] == NULL) //next[9]
+				next[cur] = new Trie(); //현재 trie에서 해당 숫자(혹은 문자) 가 등장한 적 없다는 의미 -> 새로 동적할당 해주자
+			next[cur]->insert(key + 1); //그 다음 문자열에 대해 확ㅇ니해주자 ( 포인터라서 주소 상 다음 문자를 가르킴)
 		
 		}
 
@@ -38,6 +40,27 @@ struct Trie {
 
 };
 
+int main() {
+	scanf_s("%d", &t);
+	while (t--) {
+		scanf_s("%d", &n);
+		getchar();
+
+		for (int i = 0; i<n; i++)
+			scanf_s("%s", &a[i], sizeof(a[i]));
+		Trie *root = new Trie;
+		r = 0;
+		for (int i = 0; i<n; i++)
+			root->insert(a[i]);
+		for (int i = 0; i<n; i++) {
+			if (root->find(a[i])) {
+				r = 1;
+			}
+		}
+		printf("%s\n", r ? "NO" : "YES");
+	}
+	return 0;
+}
 
 
 /*
