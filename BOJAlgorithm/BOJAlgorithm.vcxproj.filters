@@ -342,5 +342,8 @@
     <ClCompile Include="16986인싸들의 가위바위보.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6987월드컵.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
