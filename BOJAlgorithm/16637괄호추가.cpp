@@ -10,6 +10,8 @@ vector<char> num;
 vector<char> oper;
 bool choose[12];
 bool usednum[12];
+long long int result = 0;
+long long int finalresult = -9876543210;
 int main() {
 
 	deque<long long int> qunum;
@@ -18,7 +20,7 @@ int main() {
 	int len, T;
 
 	cin >> T >> ea;
-	long long int result = 0, finalresult = 0;
+	
 	for (int i = 0; i < T; i++) {
 		if (i % 2 == 0) {
 			num.push_back(ea[i]);
