@@ -366,5 +366,14 @@
     <ClCompile Include="16937두스티커.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2711오타맨.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5635생일.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16943숫자재배치.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
