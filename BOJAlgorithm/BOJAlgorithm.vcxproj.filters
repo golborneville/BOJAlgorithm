@@ -411,5 +411,8 @@
     <ClCompile Include="4963섬의개수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2630색종이.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
