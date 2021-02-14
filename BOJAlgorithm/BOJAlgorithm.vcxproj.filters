@@ -420,5 +420,14 @@
     <ClCompile Include="9934완전이진트리.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16948데스나이트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15686치킨배달.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20057마법사와상어와토네이도.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
