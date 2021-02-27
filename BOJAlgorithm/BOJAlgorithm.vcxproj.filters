@@ -438,6 +438,9 @@
     <ClCompile Include="20056마법사상어와파이어볼.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15683감시.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="16234인구이동.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
