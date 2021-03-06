@@ -23,8 +23,7 @@ struct shark {
 	int eaten;
 };
 bool cmp(const fish &a, const fish &b) {
-	//if (a.dis > b.dis) return true;
-	//else if(a.dis == b.dis){
+
 	if (a.x > b.x) {
 		return true;
 	}
@@ -33,8 +32,7 @@ bool cmp(const fish &a, const fish &b) {
 	}
 	else
 		return false;
-//	}
-//	return false;
+
 }
 
 vector<fish> mob;
@@ -62,26 +60,8 @@ void BFS( ) {
 				if (sea[nx][ny] > 0 && sea[nx][ny] < baby.size) {
 					if (lval > chk[nx][ny]) lval = chk[nx][ny];
 					if (lval == chk[nx][ny]) appl.push_back({ sea[nx][ny], nx,ny, chk[nx][ny] });
-					/*sea[nx][ny] = 9;
-					baby.eaten = baby.eaten + 1;
-					if (baby.size == baby.eaten) {
-						baby.eaten = 0;
-						baby.size = baby.size + 1;
-					}
-					baby.x = nx; baby.y = ny;
-					return chk[nx][ny]; //여기서 동일한 최단 거리에 위치 한 애들 리스트 세워서 x y 우선순위 두고 지정해주기
-				*/
+					
 				}
-
-				/*if (nx == target.x && ny == target.y) {
-					sea[nx][ny] = 9;
-					baby.eaten = baby.eaten + 1;
-					if (baby.size == baby.eaten) {
-						baby.eaten = 0;
-						baby.size = baby.size + 1;
-					}
-					return chk[nx][ny];
-				}*/
 
 			}
 		}
@@ -111,28 +91,6 @@ int main() {
 		}
 
 	while (mob.size() > 0) {
-		//여기서 부터 
-		/*for (int i = 0; i < mob.size(); i++) {
-			mob[i].dis = abs(mob[i].x - baby.x) + abs(mob[i].y - baby.y);
-		}
-		sort(mob.begin(), mob.end(), cmp);
-		vector<fish> overb;
-		for (int i = mob.size() - 1; i >= 0; i--) {
-			if (mob[i].size >= baby.size) {
-				overb.push_back(mob[i]);
-				mob.pop_back();
-			}
-			else break;
-		}
-		if (mob.size() == 0) break;
-		fish target = mob[mob.size()-1];
-		mob.pop_back();
-
-		for (int i = 0; i < overb.size(); i++) {
-			mob.push_back(overb[i]);
-		}*/
-		//여기까지 순서 정렬하는거엿음 사이즈랑 고려해서 -> 싹다 갈아아엎어야한다는 소리=^.^=
-
 		//(동일) 최단 거리 내 모든 후보 => appl에 존재
 		memset(chk, -1, sizeof(chk));
 		BFS();
@@ -148,12 +106,7 @@ int main() {
 			baby.eaten = 0;
 			baby.size = baby.size + 1;
 		}
-		baby.x = target.x; baby.y = target.y;
-
-
-		//if (!rs) break;
-		//helpday += rs;
-		//baby.x = target.x; baby.y = target.y; //상어 위치 업뎃
+		baby.x = target.x; baby.y = target.y;//상어 위치 업뎃
 
 	}
 	cout << helpday;
