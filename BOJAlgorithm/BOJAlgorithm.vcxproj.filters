@@ -459,5 +459,14 @@
     <ClCompile Include="14621나만안되는연애.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1238파티.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="스코페05.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17779게리멘더링.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
