@@ -471,5 +471,11 @@
     <ClCompile Include="17135캐슬디펜스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15500이상한하노이탑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17837새로운게임2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
