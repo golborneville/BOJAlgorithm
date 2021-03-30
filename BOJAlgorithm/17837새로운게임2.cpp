@@ -1,4 +1,3 @@
-//1:40 ~2:40까지( timer 기준)
 #include<iostream>
 #include<vector>
 #include <deque>
@@ -125,7 +124,7 @@ int main() {
 				cout << t;
 				return 0;
 			}
-			//왜!!!!!!!!!터지는데!!!!!!!!!!!!!!!!
+			
 		}
 	}
 	cout << -1;
