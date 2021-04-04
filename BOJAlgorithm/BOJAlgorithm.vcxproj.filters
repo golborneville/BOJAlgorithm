@@ -492,5 +492,8 @@
     <ClCompile Include="4811알약.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17140이차원배열과연산.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
