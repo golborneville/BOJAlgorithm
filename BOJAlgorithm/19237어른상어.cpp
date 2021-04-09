@@ -85,33 +85,6 @@ int main()
 					break;
 				}
 
-				/*if (sea[nx][ny].first == 0 || sea[nx][ny].second == K + 1)
-				{
-					//다음 이동!
-					flag = true;
-					if (sea[nx][ny].first == 0)
-					{
-						sea[nx][ny] = { i, K + 1 };
-						shark[i] = { ndir,nx,ny };
-					}
-					else
-					{
-						if (sea[nx][ny].first > i)
-						{
-							int num = sea[nx][ny].first;
-							sea[nx][ny] = { i, K + 1 };
-							shark[num] = { -1,-1,-1 }; //dead
-
-						}
-						else
-						{
-							//shark[sea[nx][ny].first] = { ndir,nx,ny };
-							shark[i] = { -1,-1,-1 }; //dead
-						}
-						rep--;
-					}
-					break;
-				}*/
 				if (sea[nx][ny].first == i && emdir == 0)
 				{
 					emer = { nx, ny };
@@ -120,8 +93,6 @@ int main()
 			}
 			if (!flag)
 			{
-				//sea[emer.first][emer.second] = { i, K + 1 };
-				//shark[i] = { emdir ,emer.first, emer.second};
 				input.insert({ i,{ emdir ,emer.first, emer.second } });
 			}
 		}
