@@ -44,7 +44,7 @@ void KMP(string T, string P)
 				ind.push(i - j + 1); // 기존엔return i - j;임
 			}
 			// keep goin' the cmp
-			i++; j++;
+			i++; j++; // 어차피 점핑은 실패함수가 처리해줄거라서 ㄱㅊ
 		}
 		else
 		{ // not a math at all-> need to jump
