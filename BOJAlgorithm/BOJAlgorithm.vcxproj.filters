@@ -519,5 +519,8 @@
     <ClCompile Include="13458시험감독.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1786찾기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
