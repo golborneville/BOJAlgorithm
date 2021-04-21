@@ -531,5 +531,8 @@
     <ClCompile Include="1987알파벳.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1197최소스패닝트리.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
