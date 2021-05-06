@@ -564,5 +564,17 @@
     <ClCompile Include="2020카카오01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2020카카오02.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020카카오03.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020카카오04.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2020카카오05.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
